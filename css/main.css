@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.box_img{
+    background-image: url("../img/rasm.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.wrapperboxspan{
+
+    margin-top: 50px;
+    width: 150px;
+    height: 350px;
+    border: 2px solid black ;
+    display: block;
+    background-color: black;
+    border-radius: 15px;
+}
+.style{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 33px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.contentspan{
+    margin-left: 63px;
+    width: 25px;
+    height: 300px;
+    display: block;
+    background-color: black;
+}
+.wrapperbox{
+    display: flex;
+    justify-content: space-between;
+}
+.box_button{
+    margin-top: 50px;
+    width: 150px;
+    height: 200px;
+}
+.btn{
+    margin-left: 25px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+    display: block;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.boxbtn{
+    background-color: red;
+}
+.boxbtn1{
+    background-color: yellow;
+}
+.boxbtn2{
+    background-color: green;
+}
+.boxbtn3{
+    background-color: black;
+}
+.red{
+    background-color: rgb(39, 38, 38);
+}
+.green{
+    background-color: rgb(39, 38, 38);
+}
+.yellow{
+    background-color: rgb(39, 38, 38);
+}
+
+
+
